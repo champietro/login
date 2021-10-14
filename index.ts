@@ -1,16 +1,13 @@
 let btnEnv = document.getElementById("btnEnviar");
-let usuario: string = document.getElementById("usuario");
-let password: string = document.getElementById("password");
+let usuario = document.getElementById("usuario");
+let password = document.getElementById("password");
+
+let usu = string;
+let pass = string;
 
 btnEnv.addEventListener("click", () => {
-  let usuario: usuario.value;
-  let password: password.value;
-
-  console.log("usuario");
-  console.log("password");
-
-  if (usuario === "Juan") {
-    if (password === "ClaveJuan") {
+  if (usu === "Juan") {
+    if (pass === "ClaveJuan") {
       console.log("Bienvenido");
     } else {
       console.log("Contraseña inválida");
